@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en" behavior:smooth>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio</title>
+
+        <link rel="stylesheet" href="animate.css">
+        <script src="wow.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" />
+  <!--tailwind elements package-->
+    <link
+
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap"
+  rel="stylesheet" />
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/tw-elements/css/tw-elements.min.css" />
+  <script src="https://cdn.tailwindcss.com/3.3.0"></script>
+  <script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        fontFamily: {
+          sans: ["Roboto", "sans-serif"],
+          body: ["Roboto", "sans-serif"],
+          mono: ["ui-monospace", "monospace"],
+        },
+      },
+      corePlugins: {
+        preflight: false,
+      },
+    };
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="font-semibold p-0 m-0 trans ">
+
+  <!--      Navbar     -->
+
+  <nav class="w-full fixed top-0  bg-white  z-10 wow slideInDown" data-wow-duration="0.5s" >
+    <div class="container mx-auto flex justify-between py-5 " >
+      <div class="flex items-center gap-3">
+        <img src="logo.png" class="w-14">
+        <span class="text-2xl font-bold text-indigo-900">portfolio</span>
+      </div>
+
+      <ul class="flex  items-center space-x-14 uppercase">
+        <li class="hover:text-red-800">
+          <a href="#home">home</a>
+        </li>
+        <li class="hover:text-red-800">
+          <a href="#about">about me</a>
+        </li>
+        <li class="hover:text-red-800">
+          <a href="#services">services</a>
+        </li>
+        <li>
+          <a href="#work">work</a>
+        </li>
+        <li class="hover:text-red-800">
+          <a href="#contact">contact</a>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+  <!--     intro section      -->
+
+  <!-- Image Section with Colored Background and Text -->
+
+  <div
+    class=" bg-gradient-to-r from-indigo-800 via-purple-400 to-pink-300   h-screen w-full flex flex-row-reverse  items-center justify-center ">
+
+    <!--text Box-->
+    <div class="w-[300px] h-[200px] bg-white p-[30px] rounded-2xl shadow-lg shadow-red-700 translate-x-[10px]  wow slideInRight" data-wow-duration="1s" >
+      <h4 class="mb-3 text-[20px] font-extrabold text-blue-900"  >Hi,Im jone</h4>
+      <p>with over 10 years of experiece on fron end Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        Distinctio, asperiores!</p>
+    </div>
+
+    <img src="men 1.png" class="object-contain w-[410px] mt-[100px] wow fadeIn" data-wow-duration="1.5s" >
+    <div class="  text-[40px] text-white wow slideInLeft" data-wow-duration="1s" >
+      <h2>Hi, I am jone</h2>
+      <h2>Front End <span class="text-red-600 font-bold">Developer..</span></h2>
+    </div>
+
+
+  </div>
+  <!--    Skills Section      -->
+
+  <section class=" mt-[10px] flex  w-full h-screen wow fadeInLeft" data-wow-duration="1.5s  " id="about" >
+
+    <!-- Left Side -->
+    <div class=" p-12 ">
+      <img src="men 2.png" class=" bg-pink-400 rounded-full w-[350px] m-12 mx-[5px]">
+    </div>
+
+    <!-- Right Side -->
+    <div class="w-1/1 mt-[100px]">
+      <h1 class="text-[20px] font-extrabold text-blue-900 tra">ABOUT ME</h1>
+      <p class="text-gray-500 my-8">I'm a Front End Developer. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Eligendi, voluptatum?</p>
+
+      <!-- Skills -->
+      <div class="mt-8">
+        <h2 class="text-[21px] font-bold text-gray-900 mb-4">Skills :</h2>
+
+        <!-- Skill 1 -->
+        <div class="mb-4">
+          <p class="text-lg font-semibold text-blue-900">HTML</p>
+          <div class="w-[730px] h-2 bg-blue-400"></div>
+        </div>
+
+        <!-- Skill 2 -->
+        <div class="mb-4">
+          <p class="text-lg font-semibold text-blue-900">CSS</p>
+          <div class="w-[730px] h-2 bg-blue-400"></div>
+        </div>
+
+        <!-- Skill 3 -->
+        <div class="mb-4">
+          <p class="text-lg font-semibold text-blue-900">JavaScript</p>
+          <div class="w-[540px] h-2 bg-blue-400"></div>
+        </div>
+
+
+        <!-- Skill 4 -->
+        <div class="mb-4">
+          <p class="text-lg font-semibold text-blue-900">tailwind</p>
+          <div class="w-[640px] h-2 bg-blue-400"></div>
+        </div>
+
+  </section>
+
+  <!--   services section     -->
+
+  <div>
+    <div class="container mx-auto " id="services" >
+      <!-- top -->
+      <div class="flex flex-col gap-3 items-center wow fadeInLeft" data-wow-duration="1s" >
+        <h1 class="uppercase text-4xl font-extrabold text-blue-900">services</h1>
+        <h1 class="uppercase text-indigo-600 font-bold">what do I offer?</h1>
+        <p class="w-1/2 text-center text-gray-500">My approach to website design is to create a webstie that strenthens
+          your company brand while ensring ease of use and for
+          your audience.
+        </p>
+      </div>
+      <!-- bottom -->
+      <div class="flex flex-wrap justify-center mt-24 gap-11">
+        <!-- card -->
+        <div class="shadow-inner shadow-black rounded-lg p-5 w-[400px] flex flex-col gap-3 my-4 wow fadeInLeft" data-wow-duration="1s">
+          <img src="tag.png" class="w-[30px]">
+          <h1 class="text-indigo-900 font-bold">UX / UI design</h1>
+          <P class="text-gray-500">I specialize ic creating interactive website for individuals and small business.</P>
+          <a class="text-indigo-500 font-semibold" href="#">Read More</a>
+        </div>
+
+        <!-- card -->
+        <div class="shadow-inner shadow-black rounded-lg p-5 w-[400px] flex flex-col gap-3 my-4 wow fadeInRight" data-wow-duration="1s">
+          <img src="tag.png" class="w-[30px]">
+          <h1 class="text-indigo-900 font-bold">UX / UI design</h1>
+          <P class="text-gray-500">I specialize ic creating interactive website for individuals and small business.</P>
+          <a class="text-indigo-500 font-semibold" href="#">Read More</a>
+        </div>
+
+        <!-- card -->
+        <div class="shadow-inner shadow-black rounded-lg p-5 w-[400px] flex flex-col gap-3 my-4 wow fadeInLeft" data-wow-duration="1s">
+          <img src="tag.png" class="w-[30px]">
+          <h1 class="text-indigo-900 font-bold">UX / UI design</h1>
+          <P class="text-gray-500">I specialize ic creating interactive website for individuals and small business.</P>
+          <a class="text-indigo-500 font-semibold" href="#">Read More</a>
+        </div>
+
+        <!-- card -->
+        <div class="shadow-inner shadow-black rounded-lg p-5 w-[400px] flex flex-col gap-3 my-4 wow fadeInRight" data-wow-duration="1s">
+          <img src="tag.png" class="w-[30px]">
+          <h1 class="text-indigo-900 font-bold">UX / UI design</h1>
+          <P class="text-gray-500">I specialize ic creating interactive website for individuals and small business.</P>
+          <a class="text-indigo-500 font-semibold" href="#">Read More</a>
+        </div>
+
+        <!-- card -->
+        <div class="shadow-inner shadow-black rounded-lg p-5 w-[400px] flex flex-col gap-3 my-4 wow fadeInLeft" data-wow-duration="1s">
+          <img src="tag.png" class="w-[30px]">
+          <h1 class="text-indigo-900 font-bold">UX / UI design</h1>
+          <P class="text-gray-500">I specialize ic creating interactive website for individuals and small business.</P>
+          <a class="text-indigo-500 font-semibold" href="#">Read More</a>
+        </div>
+
+        <!-- card -->
+        <div class="shadow-inner shadow-black rounded-lg p-5 w-[400px] flex flex-col gap-3 my-4 wow fadeInRight" data-wow-duration="1s">
+          <img src="tag.png" class="w-[30px]">
+          <h1 class="text-indigo-900 font-bold">UX / UI design</h1>
+          <P class="text-gray-500">I specialize ic creating interactive website for individuals and small business.</P>
+          <a class="text-indigo-500 font-semibold" href="#">Read More</a>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+
+  <!--   projects   -->
+
+
+
+  <div class="translate-y-[-270px" id="work">
+    <div class="container mx-auto mt-80 ">
+      <!-- top -->
+      <div class="flex flex-col gap-3 items-center wow fadeIn" data-wow-duration="1s">
+        <h1 class="uppercase text-4xl font-extrabold text-blue-900">Workes & Projects</h1>
+        <h1 class="uppercase text-indigo-600 font-bold">what do I offer?</h1>
+        <p class="w-1/2 text-center text-gray-500">My Worke to website design is to create a webstie that strenthens
+          your company brand while ensring ease of use and for
+          your audience.
+        </p>
+      </div>
+
+      <!--  bottom -->
+
+
+      <div class="flex flex-wrap justify-center  mt-24 gap-11">
+
+
+
+        <!--  photo -->
+        <div class="shadow-2xl shadow-black rounded-lg p-5 w-[300px] m-[30px]  my-4 wow fadeInLeft" data-wow-duration="1s">
+          <img src="p.webp" class="w-[100%]">
+        </div>
+
+        <!--  photo -->
+        <div class="shadow-2xl shadow-black rounded-lg p-5 w-[300px] m-[30px] my-4 wow fadeInRight" data-wow-duration="1s">
+          <img src="p.webp" class="w-[100%]">
+        </div>
+
+        <!--  photo -->
+        <div class="shadow-2xl shadow-black rounded-lg p-5 w-[300px] m-[30px] my-4 wow fadeIn" data-wow-duration="1s">
+          <img src="p.webp" class="w-[100%]">
+        </div>
+
+        <!--  photo -->
+        <div class="shadow-2xl shadow-black rounded-lg p-5 w-[300px] m-[30px] my-4 wow fadeInLeft" data-wow-duration="1s">
+          <img src="p.webp" class="w-[100%]">
+        </div>
+
+        <!--  photo -->
+        <div class="shadow-2xl shadow-black rounded-lg p-5 w-[300px] m-[30px] my-4 wow fadeInRight" data-wow-duration="1s">
+          <img src="p.webp" class="w-[100%]">
+        </div>
+
+
+        <!--  photo -->
+        <div class="shadow-2xl shadow-black rounded-lg p-5 w-[300px] m-[30px] my-4 wow fadeIn" data-wow-duration="1s"">
+          <img src="p.webp" class="w-[100%]">
+        </div>
+
+
+
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- form section  -->
+
+
+  <div class="container mx-auto mt-80 wow fadeInRight "data-wow-duration="1s" id="contact" >
+    <!-- top -->
+    <div class="flex flex-col gap-3 items-center">
+      <h1 class="uppercase text-4xl font-extrabold text-blue-900">CONTACT</h1>
+      <h1 class="uppercase text-indigo-600 font-bold">Have a Question?</h1>
+      <p class="w-1/2 text-center text-gray-500">Do you have an ides? Lets discuss it and see what we can do together.
+      </p>
+    </div>
+
+
+    <!-- bottom  -->
+  <form class=" container m-auto flex flex-col gap-5 justify-center items-center mt-[170px] w-2/3 h-[200px]" >
+
+      <input type="text" placeholder="Nmae Surname" class="w-full p-3 ring-1 ring-indigo-300 rounded-md">
+      <input type="email" placeholder="Email "  class="w-full p-3 ring-1 ring-indigo-300 rounded-md">
+    <textarea  placeholder="Message..." class="w-full p-[100px] ring-1 ring-indigo-300 rounded-md"></textarea>
+    <button class="w-1/2 bg-indigo-600 text-white font-medium px-3 py-2 rounded-md cursor-pointer">Submit</button>
+  </form>
+
+
+</div>
+
+<!--  footr section  -->
+
+
+<div class="w-full  bg-gray-400 mt-[300px] ">
+  <div class="container mx-auto flex justify-between py-5">
+    <div class="flex items-center gap-3">
+      <img src="logo.png" class="w-14">
+      <span class="text-2xl font-bold text-indigo-900">portfolio</span>
+    </div>
+
+    <ul class="flex gap-9 items-center  uppercase">
+      <li class="hover:text-red-800 ">
+        <a href="#"><p class="fa-brands fa-facebook"></p>
+</a>
+      </li>
+      <li class="hover:text-red-800">
+
+        <a href="#">     <i class="fa-brands fa-twitter fa-xl"></i>   </a>
+      </li>
+      <li class="hover:text-red-800">
+
+        <a href="#">  <i class="fa-brands fa-instagram" ></i></a>
+      </li>
+
+    </ul>
+
+  </div>
+</nav>
+</div>
+
+
+<!--  scroll to top  -->
+
+
+  <button id="btn"  class="fixed right-4 bottom-4 bg-indigo-500 text-white px-4 py-2 rounded" >^</button>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/js/tw-elements.umd.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+
+
+
+</html>
